@@ -16,7 +16,7 @@ public class DistanceSquared {
 		int x;
 		int y;
 		try{
-			x= Integer.parse(args[0])
+			x= Integer.parseInt(args[0]);
 		}
 		catch(Exception e)
 		{
@@ -25,7 +25,7 @@ public class DistanceSquared {
 			return;
 		}
 		try{
-			y= Integer.parse(args[1])
+			y= Integer.parseInt(args[1]);
 		}
 		catch(Exception e)
 		{
@@ -33,7 +33,7 @@ public class DistanceSquared {
 			IO.println("Second integer failed to parse.");
 			return;
 		}
-		x= x*x+y*y;
+		x= x*x+y*y; // a squared plus b squared equals c squared where c is the distace from the point to the origin.
 		IO.println(x);
 	}
 }
