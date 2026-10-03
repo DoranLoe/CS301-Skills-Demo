@@ -6,7 +6,7 @@
  */
 import java.util.*;
 
-public class Circles {
+public class Circles { //I haven't made graphics in java for literal years AND ive never used StdDraw. So this was "fun".
 	
 	public static void main (String[] args) {
 		int circleCount;
