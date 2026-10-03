@@ -28,7 +28,7 @@ public class Banner {
 			IO.println("Requires a String");
 			return;
 		}
-		StdDraw.setCanvasSize(500,37);// a unit square is a square with side length 1,1 . If I were to use that, the canvas would be one pixel big. So im including a scale
+		StdDraw.setCanvasSize(500,37);// initally this had the same code in it as Circles, but I wanted it make it not a square so it looks better.
 		StdDraw.setXscale(0,2);
 		StdDraw.setYscale(0,0.125);
 		double x=0;
