@@ -1,7 +1,8 @@
 /*
  * Stats.java
  * 
- * 
+ * Takes an integer n command line argument.
+ * Prompts the user for n numbers and then prints out the average and standard deviation of the given numbers. 
  * 
  */
 import java.lang.Math;
