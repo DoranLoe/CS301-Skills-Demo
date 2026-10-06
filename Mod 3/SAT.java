@@ -26,7 +26,7 @@ public class SAT {
 		 * 
 		 * There we go!
 		 * Finding on stack exchange: https://stats.stackexchange.com/questions/17028/how-to-calculate-quartiles-with-only-standard-deviation-and-mean-assuming-normal
-		 * and this other website: https://www.cs.uni.edu/~campbell/stat/normfact.html
+		 * and this other random website: https://www.cs.uni.edu/~campbell/stat/normfact.html
 		 * We find that the number I'm looking for is 0.67
 		 */
 		 
