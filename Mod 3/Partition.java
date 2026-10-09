@@ -93,8 +93,8 @@ public class Partition {
 			for(String part : currAdd)
 			{
 				Scanner scan = new Scanner(part);
-				//if (Integer.parseInt(""+part.charAt(0)) > i) //bugs out at numbers over 9 lets use a scanner then.
-				if (scan.nextInt() >i)//we need to avoid repeated partitions we do that by ignoring the parts that include larger numbers then i
+				//if (Integer.parseInt(""+part.charAt(0)) > i) bugs out at numbers over 9 lets use a scanner then.
+				if (scan.nextInt() >i)//we need to avoid repeated partitions. we do that by ignoring the parts that include larger numbers then i
 					continue;
 				rtn.add(""+i+" "+part);
 			} // by the end of this all strings for i are in the rtn list
