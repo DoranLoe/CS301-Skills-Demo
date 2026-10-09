@@ -50,7 +50,7 @@ public class RecursiveBinarySearch {
 		
 		if(arr[middle]> tar)
 			return search(arr, tar, start, middle);
-		return search(arr, tar, middle, end);// the plus one did break things actually
+		return search(arr, tar, middle, end);// the plus one did break things actually made start = to end breaking our base case. fixed that.
 	}
 }
 
