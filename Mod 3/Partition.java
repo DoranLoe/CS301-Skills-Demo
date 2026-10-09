@@ -1,8 +1,8 @@
 /*
  * Partition.java
  * 
- * 
- * 
+ * Accepts a positive integer command line argument
+ * Prints out all partitions of that number.
  */
 import java.util.*;
 
@@ -52,8 +52,12 @@ public class Partition {
 	//new day new me! Lets get complicated.
 	
 	//lets do some memoization
-	static Map<Integer, ArrayList<String>> done = new HashMap<>();
+	private static Map<Integer, ArrayList<String>> done = new HashMap<>();
 	
+	/**
+	 * prints all unique partitions of a number
+	 * @param begin an integer to print the paritions of
+	 */
 	public static void partition(int begin)
 	{
 		if (done.size()==0) //memo map needs to have 1 in it as part of getPart's base case
