@@ -47,9 +47,9 @@ public class Partition {
 		}
 	}*/
 	
-	//Okay it's been a few days. Last I worked on this was monday and I just couldn't get it to work
-	//got so fed up with it that I gave up.
-	//new day new me! Lets get complicated.
+	//Okay it's been a few days. Last I worked on this was Monday and I just couldn't get it to work
+	//got so fed up with it that I gave up. like I got straight up mopey about it.
+	//new day new me! Lets get complicated. No more attempts at a simple solution.
 	
 	//lets do some memoization
 	private static Map<Integer, ArrayList<String>> done = new HashMap<>();
