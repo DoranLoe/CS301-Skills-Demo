@@ -13,7 +13,7 @@ public class CustomDate {
 	
 	public CustomDate()
 	{
-		this(0,0,0);
+		this(1,1,0);
 	}
 	public CustomDate(byte m, byte d, long y)
 	{
@@ -85,7 +85,16 @@ public class CustomDate {
 	
 	public boolean isBefore(CustomDate date)
 	{
-		return (year<=date.getYear() && month <=date.getMonth() && day<date.getDay());
+		return year<date.getYear() || //year is before or
+			(
+				year == date.getYear() && //year is the same but
+				(
+					month <date.getMonth() || //month is before or
+					(
+						month== date.getMonth()&& day<date.getDay() // month is the same and day is before
+					)
+				)
+			);
 	}
 	
 	//getter methods
@@ -133,7 +142,8 @@ public class CustomDate {
 			
 			case 4:
 			case 6:
-			case 9: if (d<31) return true;
+			case 9:
+			case 11: if (d<31) return true;
 					return false;
 			
 			case 2: if(isLeapYear(y))

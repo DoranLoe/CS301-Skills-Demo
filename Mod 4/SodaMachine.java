@@ -62,10 +62,12 @@ public class SodaMachine {
 	public int buy()
 	{
 		int changeToDispense=0;
-		if (change>100)
+		if (change>=100)
+		{
 			changeToDispense = change-100;
 			change = 0;
-			return changeToDispense;
+		}
+		return changeToDispense;
 	}
 }
 
