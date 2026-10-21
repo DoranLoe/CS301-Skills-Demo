@@ -35,7 +35,7 @@ public class BinarySearch {
 	/**
 	 * findI
 	 * finds any element of an array sorted in ascending order that is equal to it's index
-	 * @param int[] a, an array of integers in ascending order.
+	 * @param int[] a, an array of integers assumed to be in ascending order.
 	 * @return int, the index of this array that contains it's element as an index if it exists. 
 	 * 		Otherwise, returns -(insertion point)-1 where the insertion point is the point that an element would need to be inserted in to the array to be the same as the index and maintain ascending order
 	 */
