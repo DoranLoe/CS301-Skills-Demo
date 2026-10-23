@@ -11,12 +11,12 @@ public class  FindKthLargest {
 	public static void main (String[] args) {
 		int[] arr = {1,2,3,4,5,6,7};
 		IO.println(Arrays.toString(arr));
-		IO.println(find(arr, 1));
+		IO.println(find(arr, 8));
 	}
 	
 	public static int find (int[] arr, int k)
 	{
-		if (k> arr.length)
+		if (k> arr.length || k<=0)
 			throw new IllegalArgumentException("array does not have a kth element");
 			
 		int rtn;
