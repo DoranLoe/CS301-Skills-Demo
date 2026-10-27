@@ -12,3 +12,5 @@ Work mainly done by Doran Loescher.
 Looked up how to import math for module 2 assignment: Stats. credited the stacks overflow page in the comments. (note to self link it here)
 ### Module 3
 For the assignment SAT, I looked at [a few](https://en.wikipedia.org/wiki/Normal_distribution) [wikipedia](https://en.wikipedia.org/wiki/Standard_score) [pages](https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule), this [stack overflow page](https://stats.stackexchange.com/questions/17028/how-to-calculate-quartiles-with-only-standard-deviation-and-mean-assuming-normal), and [This random page I found](https://www.cs.uni.edu/~campbell/stat/normfact.html) connected to some 2013 university of iowa statistics class. Internet is a magical place.
+### Module 6
+For MatchPhoneNumber.java I looked at regex documentation as well has [this page](https://www.w3schools.com/java/java_regex.asp) which was useful for understanding the basic set up of the Pattern and Matcher classes.
