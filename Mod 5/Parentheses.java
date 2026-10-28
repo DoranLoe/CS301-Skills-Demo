@@ -32,6 +32,8 @@ public class Parentheses {
 				prevChars.push(c);
 			else if (")}]".indexOf(c) != -1)
 			{
+				if (prevChars.isEmpty())
+					return false;
 				char prev = prevChars.pop();
 				if ( !(	(c == ')' && prev == '(')||
 						(c == '}' && prev == '{')||
