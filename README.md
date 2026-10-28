@@ -2,11 +2,7 @@
 Repository for a CS301 class.
 
 # Contents
-Mod1 - A Folder containing assignments related to module 1<br/>
-Mod2 - A Folder containing assignments related to module 2<br/>
-Mod3 - A Folder containing assignments related to module 3<br/>
-Mod4 - A Folder containing assignments related to module 4<br/>
-Mod5 - A Folder containing assignments related to module 5<br/>
+Mod1-5 - Folders containing assignments related to the numbered module<br/>
 Mod6 - A Folder containing assignments related to module 6. Includes a separate readme to display images related to the module<br/>
 # Credits
 Work mainly done by Doran Loescher.
